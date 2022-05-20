@@ -1,0 +1,25 @@
+.container{
+
+    margin:10% auto;
+    padding: 0;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.c1{
+    flex:1;
+}
+.c2{
+    flex:1;
+}
+.c3{
+    flex:1;
+}
+.c4{
+    flex:1;
+}
+.container >*{
+    margin: 2px;
+}
